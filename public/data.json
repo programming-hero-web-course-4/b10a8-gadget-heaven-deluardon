@@ -1,0 +1,661 @@
+{
+  "products": [
+    {
+        "product_id": 1,
+        "product_title": "MacBook Air M1",
+        "product_image": "https://i.imghippo.com/files/nZQ8775aOg.png",
+        "category": "MacBooks",
+        "price": 999.99,
+        "description": "Apple's lightweight laptop with M1 chip for superior performance.",
+        "specification": [
+          "Apple M1 chip",
+          "8GB RAM",
+          "256GB SSD",
+          "13.3-inch Retina display"
+        ],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": 2,
+        "product_title": "MacBook Pro 14",
+        "product_image": "https://i.imghippo.com/files/ys6149Xlk.png",
+        "category": "MacBooks",
+        "price": 1999.99,
+        "description": "Powerful performance in a compact design with ProMotion display.",
+        "specification": [
+          "Apple M1 Pro chip",
+          "16GB RAM",
+          "512GB SSD",
+          "14-inch Liquid Retina XDR display"
+        ],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": 3,
+        "product_title": "MacBook Pro 16",
+        "product_image": "https://i.imghippo.com/files/WsQ7058UiY.png",
+        "category": "MacBooks",
+        "price": 2499.99,
+        "description": "The ultimate MacBook for creative professionals with an expansive display.",
+        "specification": [
+          "Apple M1 Max chip",
+          "32GB RAM",
+          "1TB SSD",
+          "16-inch Liquid Retina XDR display"
+        ],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": 4,
+        "product_title": "MacBook Air M2",
+        "product_image": "https://i.imghippo.com/files/wI8813rns.png",
+        "category": "MacBooks",
+        "price": 1199.99,
+        "description": "The thinnest MacBook with the new M2 chip and improved performance.",
+        "specification": [
+          "Apple M2 chip",
+          "8GB RAM",
+          "256GB SSD",
+          "13.6-inch Retina display"
+        ],
+        "availability": false,
+        "rating": 4.7
+      },
+      {
+        "product_id": 5,
+        "product_title": "MacBook Pro 13 M2",
+        "product_image": "https://i.imghippo.com/files/Uil3752gEM.png",
+        "category": "MacBooks",
+        "price": 1499.99,
+        "description": "Compact and powerful, the MacBook Pro 13\" M2 delivers exceptional performance.",
+        "specification": [
+          "Apple M2 chip",
+          "8GB RAM",
+          "512GB SSD",
+          "13.3-inch Retina display"
+        ],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": 6,
+        "product_title": "MacBook Air 2020",
+        "product_image": "https://i.imghippo.com/files/bvst4318Dfg.png",
+        "category": "MacBooks",
+        "price": 899.99,
+        "description": "A sleek, portable laptop with a comfortable keyboard and long battery life.",
+        "specification": [
+          "Intel Core i3",
+          "8GB RAM",
+          "256GB SSD",
+          "13.3-inch Retina display"
+        ],
+        "availability": false,
+        "rating": 4.6
+      },
+      {
+        "product_id": 7,
+        "product_title": "MacBook Pro 15 2019",
+        "product_image": "https://i.imghippo.com/files/siAX7418wbA.png",
+        "category": "MacBooks",
+        "price": 1999.99,
+        "description": "A high-performance MacBook with an impressive display and power.",
+        "specification": [
+          "Intel Core i7",
+          "16GB RAM",
+          "512GB SSD",
+          "15.4-inch Retina display"
+        ],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": 8,
+        "product_title": "MacBook Pro 16 2021",
+        "product_image": "https://i.imghippo.com/files/YNK7552sk.png",
+        "category": "MacBooks",
+        "price": 2499.99,
+        "description": "A powerful MacBook for professionals with the latest technology.",
+        "specification": [
+          "Apple M1 Pro chip",
+          "16GB RAM",
+          "1TB SSD",
+          "16-inch Liquid Retina XDR display"
+        ],
+        "availability": true,
+        "rating": 5.0
+      },
+      {
+        "product_id": 9,
+        "product_title": "MacBook Air 2019",
+        "product_image": "https://example.com/images/macbook_air_2019.jpg",
+        "category": "MacBooks",
+        "price": 849.99,
+        "description": "A lightweight and portable laptop with a great keyboard.",
+        "specification": [
+          "Intel Core i5",
+          "8GB RAM",
+          "128GB SSD",
+          "13.3-inch Retina display"
+        ],
+        "availability": true,
+        "rating": 4.5
+      },
+      {
+        "product_id": 10,
+        "product_title": "MacBook Pro 13\" 2020",
+        "product_image": "https://example.com/images/macbook_pro_13_2020.jpg",
+        "category": "MacBooks",
+        "price": 1299.99,
+        "description": "Combining power and portability, the MacBook Pro 13\" is perfect for work and play.",
+        "specification": [
+          "Intel Core i5",
+          "8GB RAM",
+          "256GB SSD",
+          "13.3-inch Retina display"
+        ],
+        "availability": false,
+        "rating": 4.7
+      },
+      {
+        "product_id": 11,
+        "product_title": "MacBook Pro 16\" 2018",
+        "product_image": "https://example.com/images/macbook_pro_16_2018.jpg",
+        "category": "MacBooks",
+        "price": 2399.99,
+        "description": "A versatile and powerful MacBook for creatives and professionals.",
+        "specification": [
+          "Intel Core i9",
+          "32GB RAM",
+          "1TB SSD",
+          "16-inch Retina display"
+        ],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": 12,
+        "product_title": "Dell XPS 13",
+        "product_image": "https://example.com/images/dell_xps_13.jpg",
+        "category": "Laptops",
+        "price": 999.99,
+        "description": "A powerful laptop with a stunning display and long battery life.",
+        "specification": [
+          "Intel Core i7",
+          "16GB RAM",
+          "512GB SSD",
+          "13.4-inch FHD display"
+        ],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": 13,
+        "product_title": "HP Spectre x360",
+        "product_image": "https://example.com/images/hp_spectre_x360.jpg",
+        "category": "Laptops",
+        "price": 1299.99,
+        "description": "A versatile 2-in-1 laptop with premium features.",
+        "specification": [
+          "Intel Core i7",
+          "16GB RAM",
+          "1TB SSD",
+          "13.3-inch OLED display"
+        ],
+        "availability": false,
+        "rating": 4.8
+      },
+      {
+        "product_id": 14,
+        "product_title": "Lenovo ThinkPad X1 Carbon",
+        "product_image": "https://example.com/images/lenovo_thinkpad_x1.jpg",
+        "category": "Laptops",
+        "price": 1649.99,
+        "description": "A high-performance business laptop.",
+        "specification": [
+          "Intel Core i7",
+          "16GB RAM",
+          "512GB SSD",
+          "14-inch FHD display"
+        ],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": 15,
+        "product_title": "Asus ROG Zephyrus G14",
+        "product_image": "https://example.com/images/asus_rog_zephyrus_g14.jpg",
+        "category": "Laptops",
+        "price": 1499.99,
+        "description": "A compact gaming laptop with powerful performance.",
+        "specification": [
+            "AMD Ryzen 9",
+            "32GB RAM",
+            "1TB SSD",
+            "14-inch QHD display"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": 16,
+        "product_title": "Acer Swift 3",
+        "product_image": "https://example.com/images/acer_swift_3.jpg",
+        "category": "Laptops",
+        "price": 699.99,
+        "description": "A lightweight laptop with solid performance and great battery life.",
+        "specification": [
+            "Intel Core i5",
+            "8GB RAM",
+            "256GB SSD",
+            "14-inch FHD display"
+        ],
+        "availability": false,
+        "rating": 4.6
+    },
+    {
+        "product_id": 17,
+        "product_title": "Microsoft Surface Laptop 4",
+        "product_image": "https://example.com/images/microsoft_surface_laptop_4.jpg",
+        "category": "Laptops",
+        "price": 1299.99,
+        "description": "A stylish laptop with a high-resolution touchscreen.",
+        "specification": [
+            "Intel Core i5",
+            "8GB RAM",
+            "512GB SSD",
+            "13.5-inch PixelSense display"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": 18,
+        "product_title": "Razer Blade 15",
+        "product_image": "https://example.com/images/razer_blade_15.jpg",
+        "category": "Laptops",
+        "price": 1999.99,
+        "description": "A premium gaming laptop with stunning graphics and performance.",
+        "specification": [
+            "Intel Core i7",
+            "16GB RAM",
+            "1TB SSD",
+            "15.6-inch OLED display"
+        ],
+        "availability": false,
+        "rating": 4.9
+    },
+    {
+        "product_id": 19,
+        "product_title": "HP Envy 15",
+        "product_image": "https://example.com/images/hp_envy_15.jpg",
+        "category": "Laptops",
+        "price": 1399.99,
+        "description": "A powerful laptop for creators with a gorgeous display.",
+        "specification": [
+            "Intel Core i7",
+            "16GB RAM",
+            "1TB SSD",
+            "15.6-inch 4K AMOLED display"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": 20,
+        "product_title": "Dell Inspiron 15",
+        "product_image": "https://example.com/images/dell_inspiron_15.jpg",
+        "category": "Laptops",
+        "price": 799.99,
+        "description": "A reliable laptop for everyday tasks and multimedia.",
+        "specification": [
+            "Intel Core i5",
+            "8GB RAM",
+            "512GB SSD",
+            "15.6-inch FHD display"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": 21,
+        "product_title": "iPhone 14 Pro",
+        "product_image": "https://example.com/images/iphone_14_pro.jpg",
+        "category": "Phones",
+        "price": 999.99,
+        "description": "The latest iPhone with a stunning display and powerful camera.",
+        "specification": [
+            "6.1-inch Super Retina XDR display",
+            "A16 Bionic chip",
+            "128GB storage",
+            "12MP triple-camera system"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": 31,
+        "product_title": "Huawei P50 Pro",
+        "product_image": "https://example.com/images/huawei_p50_pro.jpg",
+        "category": "Phones",
+        "price": 899.99,
+        "description": "A stylish smartphone with a powerful camera and sleek design.",
+        "specification": [
+            "6.6-inch OLED display",
+            "Kirin 9000",
+            "256GB storage",
+            "50MP quad-camera system"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": 32,
+        "product_title": "Vivo X80 Pro",
+        "product_image": "https://example.com/images/vivo_x80_pro.jpg",
+        "category": "Phones",
+        "price": 999.99,
+        "description": "A flagship smartphone with outstanding camera capabilities.",
+        "specification": [
+            "6.78-inch AMOLED display",
+            "Snapdragon 8 Gen 1",
+            "256GB storage",
+            "50MP quad-camera system"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": 33,
+        "product_title": "LG Velvet",
+        "product_image": "https://example.com/images/lg_velvet.jpg",
+        "category": "Phones",
+        "price": 499.99,
+        "description": "A stylish phone with a unique design and solid performance.",
+        "specification": [
+            "6.8-inch OLED display",
+            "Snapdragon 845",
+            "128GB storage",
+            "48MP triple-camera system"
+        ],
+        "availability": false,
+        "rating": 4.5
+    },
+    {
+        "product_id": 34,
+        "product_title": "Apple Watch Series 8",
+        "product_image": "https://example.com/images/apple_watch_series_8.jpg",
+        "category": "Smart Watches",
+        "price": 399.99,
+        "description": "The latest Apple Watch with advanced health and fitness features.",
+        "specification": [
+            "Always-On Retina display",
+            "GPS and Cellular options",
+            "ECG and Blood Oxygen monitoring",
+            "WatchOS 9"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": 35,
+        "product_title": "Samsung Galaxy Watch 5",
+        "product_image": "https://example.com/images/samsung_galaxy_watch_5.jpg",
+        "category": "Smart Watches",
+        "price": 279.99,
+        "description": "A versatile smart watch with fitness tracking and stylish design.",
+        "specification": [
+            "1.4-inch Super AMOLED display",
+            "Wear OS powered",
+            "Heart rate and sleep monitoring",
+            "Battery life up to 40 hours"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+      "product_id": 36,
+      "product_title": "Garmin Forerunner 245",
+      "product_image": "https://example.com/images/garmin_forerunner_245.jpg",
+      "category": "Smart Watches",
+      "price": 349.99,
+      "description": "A GPS running watch with advanced training features.",
+      "specification": [
+        "1.2-inch sunlight-readable display",
+        "GPS and heart rate monitoring",
+        "Smart notifications",
+        "Battery life up to 7 days"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 37,
+      "product_title": "Fitbit Versa 4",
+      "product_image": "https://example.com/images/fitbit_versa_4.jpg",
+      "category": "Smart Watches",
+      "price": 229.95,
+      "description": "A health and fitness smartwatch with personalized insights.",
+      "specification": [
+        "1.58-inch AMOLED display",
+        "Built-in GPS",
+        "Heart rate and sleep tracking",
+        "6+ days battery life"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 38,
+      "product_title": "Amazfit GTR 4",
+      "product_image": "https://example.com/images/amazfit_gtr_4.jpg",
+      "category": "Smart Watches",
+      "price": 199.99,
+      "description": "An affordable smartwatch with long battery life and fitness features.",
+      "specification": [
+        "1.43-inch AMOLED display",
+        "GPS and heart rate monitoring",
+        "150+ sports modes",
+        "14 days battery life"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 39,
+      "product_title": "Fossil Gen 6",
+      "product_image": "https://example.com/images/fossil_gen_6.jpg",
+      "category": "Smart Watches",
+      "price": 319.99,
+      "description": "A stylish smartwatch with Wear OS and fitness tracking.",
+      "specification": [
+        "1.28-inch AMOLED display",
+        "Wear OS powered",
+        "Heart rate and SpO2 monitoring",
+        "30+ customizable watch faces"
+      ],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": 40,
+      "product_title": "Huawei Watch GT 3",
+      "product_image": "https://example.com/images/huawei_watch_gt_3.jpg",
+      "category": "Smart Watches",
+      "price": 249.99,
+      "description": "A smart watch with an elegant design and comprehensive health tracking.",
+      "specification": [
+        "1.43-inch AMOLED display",
+        "GPS and heart rate monitoring",
+        "Battery life up to 14 days",
+        "Multiple sports modes"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+
+    {
+      "product_id": 41,
+      "product_title": "iPhone 15 Pro Max",
+      "product_image": "https://example.com/images/iphone_15_pro_max.jpg",
+      "category": "iPhone",
+      "price": 1099.99,
+      "description": "The ultimate iPhone with a stunning display and pro camera system.",
+      "specification": [
+        "6.7-inch Super Retina XDR display",
+        "A17 Pro chip",
+        "256GB storage",
+        "48MP triple-camera system"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 42,
+      "product_title": "iPhone 15 Pro",
+      "product_image": "https://example.com/images/iphone_15_pro.jpg",
+      "category": "iPhone",
+      "price": 999.99,
+      "description": "A powerful iPhone with advanced features and lightweight design.",
+      "specification": [
+        "6.1-inch Super Retina XDR display",
+        "A17 Pro chip",
+        "128GB storage",
+        "48MP triple-camera system"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 43,
+      "product_title": "iPhone 15",
+      "product_image": "https://example.com/images/iphone_15.jpg",
+      "category": "iPhone",
+      "price": 799.99,
+      "description": "The latest iPhone with vibrant colors and great camera capabilities.",
+      "specification": [
+        "6.1-inch Super Retina XDR display",
+        "A16 chip",
+        "128GB storage",
+        "Dual-camera system"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 44,
+      "product_title": "iPhone 14 Pro Max",
+      "product_image": "https://example.com/images/iphone_14_pro_max.jpg",
+      "category": "iPhone",
+      "price": 1099.99,
+      "description": "Experience the best of iPhone with the Pro Max features.",
+      "specification": [
+        "6.7-inch Super Retina XDR display",
+        "A16 Bionic chip",
+        "256GB storage",
+        "48MP triple-camera system"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 45,
+      "product_title": "iPhone 14 Pro",
+      "product_image": "https://example.com/images/iphone_14_pro.jpg",
+      "category": "iPhone",
+      "price": 999.99,
+      "description": "The Pro model with an advanced camera system and stunning display.",
+      "specification": [
+        "6.1-inch Super Retina XDR display",
+        "A16 Bionic chip",
+        "128GB storage",
+        "48MP triple-camera system"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 46,
+      "product_title": "iPhone 14",
+      "product_image": "https://example.com/images/iphone_14.jpg",
+      "category": "iPhone",
+      "price": 799.99,
+      "description": "A powerful iPhone with a dual-camera and excellent performance.",
+      "specification": [
+        "6.1-inch Super Retina XDR display",
+        "A15 Bionic chip",
+        "128GB storage",
+        "Dual-camera system"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 47,
+      "product_title": "iPhone SE (3rd Generation)",
+      "product_image": "https://example.com/images/iphone_se.jpg",
+      "category": "iPhone",
+      "price": 429.99,
+      "description": "A compact iPhone with powerful performance at an affordable price.",
+      "specification": [
+        "4.7-inch Retina HD display",
+        "A15 Bionic chip",
+        "64GB storage",
+        "12MP single-camera system"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 48,
+      "product_title": "iPhone 13 Pro Max",
+      "product_image": "https://example.com/images/iphone_13_pro_max.jpg",
+      "category": "iPhone",
+      "price": 1099.99,
+      "description": "Last year's flagship model with a fantastic camera and performance.",
+      "specification": [
+        "6.7-inch Super Retina XDR display",
+        "A15 Bionic chip",
+        "256GB storage",
+        "12MP triple-camera system"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 49,
+      "product_title": "iPhone 13 Pro",
+      "product_image": "https://example.com/images/iphone_13_pro.jpg",
+      "category": "iPhone",
+      "price": 999.99,
+      "description": "The Pro version of iPhone 13 with an advanced camera system.",
+      "specification": [
+        "6.1-inch Super Retina XDR display",
+        "A15 Bionic chip",
+        "128GB storage",
+        "12MP triple-camera system"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 50,
+      "product_title": "iPhone 13",
+      "product_image": "https://example.com/images/iphone_13.jpg",
+      "category": "iPhone",
+      "price": 699.99,
+      "description": "A powerful iPhone with great battery life and dual-camera system.",
+      "specification": [
+        "6.1-inch Super Retina XDR display",
+        "A15 Bionic chip",
+        "128GB storage",
+        "Dual-camera system"
+      ],
+      "availability": true,
+      "rating": 4.6
+    }
+  ]
+}
