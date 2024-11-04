@@ -5,6 +5,7 @@ import Dashboard from "../Page/Dashboard";
 import Statistics from "../Page/Statistics";
 import ProductCategory from "../Page/ProductCategory";
 import NotFound from "../Page/NotFound";
+import ProductDetails from "../Page/ProductDetails";
 
 const routes = createBrowserRouter([
   {
@@ -14,17 +15,35 @@ const routes = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
-        loader: () => fetch("categories.json"),
+        loader: async () => {
+          const response = await fetch("/categories.json");
+          if (!response.ok) {
+            throw new Error("Failed to fetch categories");
+          }
+          return response.json();
+        },
         children: [
           {
             path: "/",
-            element: <ProductCategory></ProductCategory>,
-            loader: () => fetch("/public/data.json"),
+            element: <ProductCategory />,
+            loader: async () => {
+              const response = await fetch("/public/data.json");
+              if (!response.ok) {
+                throw new Error("Failed to fetch products");
+              }
+              return response.json(); 
+            },
           },
           {
             path: "/category/:category",
-            element: <ProductCategory></ProductCategory>,
-            loader: () => fetch("/public/data.json"),
+            element: <ProductCategory />,
+            loader: async () => {
+              const response = await fetch("/public/data.json");
+              if (!response.ok) {
+                throw new Error("Failed to fetch products");
+              }
+              return response.json();
+            },
           },
         ],
       },
@@ -38,7 +57,18 @@ const routes = createBrowserRouter([
       },
       {
         path: "*",
-        element: <NotFound></NotFound>,
+        element: <NotFound />,
+      },
+      {
+        path: "/product/:productId",
+        element: <ProductDetails />,
+        loader: async () => {
+          const response = await fetch("/public/data.json");
+          if (!response.ok) {
+            throw new Error("Failed to fetch products");
+          }
+          return response.json(); 
+        },
       },
     ],
   },

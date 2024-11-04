@@ -41,7 +41,7 @@ const Home = () => {
           </h1>
           <div className="py-5 w-11/12 mx-auto flex flex-col md:flex-row gap-12">
             <div className="">
-            <Category key={category.id} category={category}></Category>
+            <Category key={category.index} category={category}></Category>
             </div>
             <div className="">
             <Outlet></Outlet>

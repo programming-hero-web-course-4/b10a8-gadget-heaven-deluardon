@@ -36,13 +36,16 @@ const ProductCategory = () => {
         });
     };
 
+  
+
     return (
         <div ref={productSectionRef} className="product-section">
-            {filteredData.length === 0 ? ( // Check if there are no products
+            {filteredData.length === 0 ? ( 
                 <div className="text-center">
                     <p className="text-lg">No products found. Please check again.</p>
                 </div>
-            ) : (
+            ) : 
+            (
                 <>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
                         {displayedItems.map(item => (

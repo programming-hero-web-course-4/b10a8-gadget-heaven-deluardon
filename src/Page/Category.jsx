@@ -4,7 +4,7 @@ import { Link} from 'react-router-dom';
 const category = ({ category }) => {
 
 
-
+ 
     if (!Array.isArray(category)) {
         return <div>No categories available.</div>;
     }

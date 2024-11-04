@@ -1,5 +1,6 @@
+import { HiHeart } from "react-icons/hi";
 import { FaShoppingCart } from "react-icons/fa";
-import { FaGratipay } from "react-icons/fa6";
+
 import { NavLink, useLocation } from "react-router-dom";
 
 const Navber = () => {
@@ -80,12 +81,15 @@ const Navber = () => {
           </ul>
         </div>
         <div className="navbar-end gap-5">
-          <button className="btn">
-            <FaShoppingCart />
-          </button>
-          <button className="btn">
-            <FaGratipay />
-          </button>
+          
+          <NavLink to={"/dashboard"}>
+              <button className="btn text-2xl"><FaShoppingCart /></button>
+              </NavLink>
+            
+          
+         <NavLink to={"/dashboard"}> <button className="btn text-2xl">
+           <HiHeart></HiHeart>
+          </button></NavLink>
         </div>
       </div>
     </div>
