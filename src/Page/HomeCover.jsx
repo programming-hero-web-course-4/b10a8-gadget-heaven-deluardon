@@ -2,8 +2,8 @@
 
 const HomeCover = () => {
     return (
-        <div className="banner w-9/12 h-[400px] mx-auto">
-            {/* <img className="w-9/12 h-[400px] mx-auto" src="/public/banner.jpg" alt="" /> */}
+        <div className="">
+            <img className="w-[800px] h-[400px] mx-auto rounded-xl border p-5" src="/public/banner.jpg" alt="" />
         </div>
     );
 };

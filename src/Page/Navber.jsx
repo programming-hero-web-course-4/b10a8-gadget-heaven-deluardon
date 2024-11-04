@@ -9,8 +9,8 @@ const Navber = () => {
 
   return (
     <div
-      className={`md:px-10 mx-auto ${
-        isHome ? "bg-[#9538E2] mx-3 rounded-t-lg" : isStatistics ? "bg-white" : "bg-gray-100"
+      className={`md:mx-3 mx-auto ${
+        isHome ? "bg-[#9538E2] rounded-t-lg mx-3 px-10" : isStatistics ? "bg-white" : "bg-gray-100"
       }`}>
       <div className="navbar mt-3">
         <div className="navbar-start">

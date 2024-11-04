@@ -1,5 +1,4 @@
-{
-  "products": [
+[
     {
         "product_id": 1,
         "product_title": "MacBook Air M1",
@@ -17,53 +16,69 @@
         "rating": 4.8
       },
       {
-        "product_id": 2,
-        "product_title": "MacBook Pro 14",
-        "product_image": "https://i.imghippo.com/files/ys6149Xlk.png",
-        "category": "MacBooks",
-        "price": 1999.99,
-        "description": "Powerful performance in a compact design with ProMotion display.",
+        "product_id": 37,
+        "product_title": "Fitbit Versa 4",
+        "product_image": "https://example.com/images/fitbit_versa_4.jpg",
+        "category": "Smart Watches",
+        "price": 229.95,
+        "description": "A health and fitness smartwatch with personalized insights.",
         "specification": [
-          "Apple M1 Pro chip",
-          "16GB RAM",
-          "512GB SSD",
-          "14-inch Liquid Retina XDR display"
+          "1.58-inch AMOLED display",
+          "Built-in GPS",
+          "Heart rate and sleep tracking",
+          "6+ days battery life"
         ],
         "availability": true,
-        "rating": 4.9
+        "rating": 4.6
       },
       {
-        "product_id": 3,
-        "product_title": "MacBook Pro 16",
-        "product_image": "https://i.imghippo.com/files/WsQ7058UiY.png",
-        "category": "MacBooks",
-        "price": 2499.99,
-        "description": "The ultimate MacBook for creative professionals with an expansive display.",
+        "product_id": 45,
+        "product_title": "iPhone 14 Pro",
+        "product_image": "https://example.com/images/iphone_14_pro.jpg",
+        "category": "iPhone",
+        "price": 999.99,
+        "description": "The Pro model with an advanced camera system and stunning display.",
         "specification": [
-          "Apple M1 Max chip",
-          "32GB RAM",
-          "1TB SSD",
-          "16-inch Liquid Retina XDR display"
+          "6.1-inch Super Retina XDR display",
+          "A16 Bionic chip",
+          "128GB storage",
+          "48MP triple-camera system"
         ],
         "availability": true,
-        "rating": 4.9
+        "rating": 4.8
       },
       {
-        "product_id": 4,
-        "product_title": "MacBook Air M2",
-        "product_image": "https://i.imghippo.com/files/wI8813rns.png",
-        "category": "MacBooks",
-        "price": 1199.99,
-        "description": "The thinnest MacBook with the new M2 chip and improved performance.",
+        "product_id": 35,
+        "product_title": "Samsung Galaxy Watch 5",
+        "product_image": "https://example.com/images/samsung_galaxy_watch_5.jpg",
+        "category": "Smart Watches",
+        "price": 279.99,
+        "description": "A versatile smart watch with fitness tracking and stylish design.",
         "specification": [
-          "Apple M2 chip",
-          "8GB RAM",
-          "256GB SSD",
-          "13.6-inch Retina display"
+            "1.4-inch Super AMOLED display",
+            "Wear OS powered",
+            "Heart rate and sleep monitoring",
+            "Battery life up to 40 hours"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+      {
+        "product_id": 16,
+        "product_title": "Acer Swift 3",
+        "product_image": "https://example.com/images/acer_swift_3.jpg",
+        "category": "Laptops",
+        "price": 699.99,
+        "description": "A lightweight laptop with solid performance and great battery life.",
+        "specification": [
+            "Intel Core i5",
+            "8GB RAM",
+            "256GB SSD",
+            "14-inch FHD display"
         ],
         "availability": false,
-        "rating": 4.7
-      },
+        "rating": 4.6
+    },
       {
         "product_id": 5,
         "product_title": "MacBook Pro 13 M2",
@@ -240,22 +255,7 @@
         "availability": true,
         "rating": 4.8
     },
-    {
-        "product_id": 16,
-        "product_title": "Acer Swift 3",
-        "product_image": "https://example.com/images/acer_swift_3.jpg",
-        "category": "Laptops",
-        "price": 699.99,
-        "description": "A lightweight laptop with solid performance and great battery life.",
-        "specification": [
-            "Intel Core i5",
-            "8GB RAM",
-            "256GB SSD",
-            "14-inch FHD display"
-        ],
-        "availability": false,
-        "rating": 4.6
-    },
+    
     {
         "product_id": 17,
         "product_title": "Microsoft Surface Laptop 4",
@@ -400,22 +400,7 @@
         "availability": true,
         "rating": 4.9
     },
-    {
-        "product_id": 35,
-        "product_title": "Samsung Galaxy Watch 5",
-        "product_image": "https://example.com/images/samsung_galaxy_watch_5.jpg",
-        "category": "Smart Watches",
-        "price": 279.99,
-        "description": "A versatile smart watch with fitness tracking and stylish design.",
-        "specification": [
-            "1.4-inch Super AMOLED display",
-            "Wear OS powered",
-            "Heart rate and sleep monitoring",
-            "Battery life up to 40 hours"
-        ],
-        "availability": true,
-        "rating": 4.8
-    },
+   
     {
       "product_id": 36,
       "product_title": "Garmin Forerunner 245",
@@ -432,22 +417,7 @@
       "availability": true,
       "rating": 4.7
     },
-    {
-      "product_id": 37,
-      "product_title": "Fitbit Versa 4",
-      "product_image": "https://example.com/images/fitbit_versa_4.jpg",
-      "category": "Smart Watches",
-      "price": 229.95,
-      "description": "A health and fitness smartwatch with personalized insights.",
-      "specification": [
-        "1.58-inch AMOLED display",
-        "Built-in GPS",
-        "Heart rate and sleep tracking",
-        "6+ days battery life"
-      ],
-      "availability": true,
-      "rating": 4.6
-    },
+    
     {
       "product_id": 38,
       "product_title": "Amazfit GTR 4",
@@ -561,22 +531,7 @@
       "availability": true,
       "rating": 4.8
     },
-    {
-      "product_id": 45,
-      "product_title": "iPhone 14 Pro",
-      "product_image": "https://example.com/images/iphone_14_pro.jpg",
-      "category": "iPhone",
-      "price": 999.99,
-      "description": "The Pro model with an advanced camera system and stunning display.",
-      "specification": [
-        "6.1-inch Super Retina XDR display",
-        "A16 Bionic chip",
-        "128GB storage",
-        "48MP triple-camera system"
-      ],
-      "availability": true,
-      "rating": 4.8
-    },
+    
     {
       "product_id": 46,
       "product_title": "iPhone 14",
@@ -658,4 +613,4 @@
       "rating": 4.6
     }
   ]
-}
+
