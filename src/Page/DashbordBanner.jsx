@@ -2,6 +2,7 @@ import { useState } from "react";
 import { CgArrowsExchangeAltV } from "react-icons/cg";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import HomeCover from "./HomeCover";
 
 const DashbordBanner = ({
   toggleSection,
@@ -78,6 +79,7 @@ const DashbordBanner = ({
           </div>
         </div>
       </div>
+        
 
       <div className="flex items-center w-11/12 justify-between mx-auto mt-4">
         {activeButton === "cart" && (

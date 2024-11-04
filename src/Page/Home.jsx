@@ -2,13 +2,9 @@ import { Outlet, useLoaderData } from "react-router-dom";
 import HomeCover from "./HomeCover";
 import Category from "./Category";
 
-
-
 const Home = () => {
-    const category=useLoaderData();
+  const category = useLoaderData();
 
-
-  
   return (
     <>
       <div>
@@ -41,10 +37,12 @@ const Home = () => {
           </h1>
           <div className="py-5 w-11/12 mx-auto flex flex-col md:flex-row gap-12">
             <div className="">
-            <Category key={category.index} category={category}></Category>
+              <Category key={category.index} category={category}></Category>
             </div>
             <div className="">
-            <Outlet></Outlet>
+              <Outlet></Outlet>
+            </div>
+            <div className="relative bottom-32">
             </div>
           </div>
         </div>
@@ -54,5 +52,3 @@ const Home = () => {
 };
 
 export default Home;
-
-
