@@ -1,4 +1,4 @@
-import { toast } from 'react-toastify';
+import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useParams } from "react-router-dom";
 import { useLoaderData } from "react-router-dom";
@@ -10,7 +10,6 @@ const FAVORITES_KEY = "favorites";
 const ProductDetails = () => {
   const { productId } = useParams();
   const products = useLoaderData();
-
 
   const product = products.find(
     (item) => item.product_id === parseInt(productId)
@@ -29,7 +28,7 @@ const ProductDetails = () => {
     if (!productExists) {
       existingCart.push(product);
       localStorage.setItem(CART_KEY, JSON.stringify(existingCart));
-      notify("Product added to cart!");
+      notify ("Product added to cart!");
     } else {
       notify("Product is already in the cart!");
     }
@@ -50,6 +49,7 @@ const ProductDetails = () => {
 
   return (
     <div className="mx-auto p-4 relative">
+      <ToastContainer /> {/* Ensure the ToastContainer is included */}
       <div className="hero bg-[#9538E2] pb-48 pt-14">
         <div className="hero-content text-center w-full">
           <div className="max-w-md">
@@ -62,7 +62,7 @@ const ProductDetails = () => {
       </div>
       <div>
         <div className="hero bg-base-100 shrink-0 shadow-2xl w-9/12 mx-auto rounded-xl relative bottom-48">
-          <div className="hero-content flex-col lg:flex-row-reverse gap-12 ">
+          <div className="hero-content flex-col lg:flex-row-reverse gap-12">
             <div className="text-center lg:text-left">
               <h1 className="text-3xl font-bold">{product.product_title}</h1>
               <p className="mt-4">

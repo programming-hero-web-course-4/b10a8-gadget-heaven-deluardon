@@ -66,7 +66,7 @@ const Dashboard = () => {
         clearFavorites={clearFavorites} 
         cartItems={cartItems} 
       />
-      <div className="w-9/12 mx-auto p-4">
+      <div className="w-9/12 mx-auto">
         {activeSection === "cart" ? (
           <div className="mt-4">
             {cartItems.length === 0 ? (
