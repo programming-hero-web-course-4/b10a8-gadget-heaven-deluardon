@@ -1,6 +1,5 @@
 import { HiHeart } from "react-icons/hi";
 import { FaShoppingCart } from "react-icons/fa";
-
 import { NavLink, useLocation } from "react-router-dom";
 
 const Navber = () => {
@@ -10,8 +9,8 @@ const Navber = () => {
 
   return (
     <div
-      className={`md:mx-3 mx-auto ${
-        isHome ? "bg-[#9538E2] rounded-t-lg mx-3 px-10" : isStatistics ? "bg-white" : "bg-gray-100"
+      className={`fixed top-0 w-full z-10 md:mx-3 mx-auto ${
+        isHome ? "bg-[#9538E2] rounded-t-lg rounded-b-lg mx-3 px-10" : isStatistics ? "bg-white" : "bg-gray-100"
       }`}>
       <div className="navbar mt-3">
         <div className="navbar-start">
@@ -57,7 +56,7 @@ const Navber = () => {
           </div>
           <a className="btn btn-ghost text-xl text-black">Gadget Heaven</a>
         </div>
-        <div className="navbar-center hidden md:flex ">
+        <div className="navbar-center hidden md:flex">
           <ul className="menu menu-horizontal px-1 gap-4">
             <li>
               <NavLink
@@ -81,15 +80,16 @@ const Navber = () => {
           </ul>
         </div>
         <div className="navbar-end gap-5">
-          
           <NavLink to={"/dashboard"}>
-              <button className="btn text-2xl"><FaShoppingCart /></button>
-              </NavLink>
-            
-          
-         <NavLink to={"/dashboard"}> <button className="btn text-2xl">
-           <HiHeart></HiHeart>
-          </button></NavLink>
+            <button className="btn text-2xl">
+              <FaShoppingCart />
+            </button>
+          </NavLink>
+          <NavLink to={"/dashboard"}>
+            <button className="btn text-2xl">
+              <HiHeart />
+            </button>
+          </NavLink>
         </div>
       </div>
     </div>

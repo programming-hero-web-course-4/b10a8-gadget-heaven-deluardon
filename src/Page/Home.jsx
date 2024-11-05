@@ -13,7 +13,7 @@ const Home = () => {
             <div className="hero">
               <div className="hero-content text-center">
                 <div className="">
-                  <h1 className="text-5xl font-bold text-white leading-[72px]">
+                  <h1 className="text-5xl font-bold text-white mt-24 leading-[72px]">
                     Upgrade Your Tech Accessorize with <br /> Gadget Heaven
                     Accessories
                   </h1>
