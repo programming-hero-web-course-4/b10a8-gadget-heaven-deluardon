@@ -77,6 +77,9 @@ const Navber = () => {
                 Dashboard
               </NavLink>
             </li>
+            <li>
+              <NavLink to={"/contact"}>Contact</NavLink>
+            </li>
           </ul>
         </div>
         <div className="navbar-end gap-5">

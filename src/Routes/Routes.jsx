@@ -6,6 +6,7 @@ import Statistics from "../Page/Statistics";
 import ProductCategory from "../Page/ProductCategory";
 import NotFound from "../Page/NotFound";
 import ProductDetails from "../Page/ProductDetails";
+import Contact from "../Page/Contact";
 
 const routes = createBrowserRouter([
   {
@@ -57,6 +58,10 @@ const routes = createBrowserRouter([
       {
         path: "/statistics",
         element: <Statistics />,
+      },
+      {
+        path:"/contact",
+        element:<Contact></Contact>
       },
       {
         path: "*",

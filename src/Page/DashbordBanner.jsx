@@ -2,6 +2,7 @@ import { useState } from "react";
 import { CgArrowsExchangeAltV } from "react-icons/cg";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { HiBadgeCheck } from "react-icons/hi";
 
 
 const DashbordBanner = ({
@@ -127,13 +128,16 @@ const DashbordBanner = ({
 
       {isModalOpen && (
         <dialog id="purchase_modal" className="modal" open>
-          <div className="modal-box">
-            <h3 className="font-bold text-lg">Thank You for Your Purchase!</h3>
-            <p className="py-4">
-              Your total cost was: ${ modalTotalPrice}
+          <div className="modal-box text-center ">
+            <h3 className="flex justify-center text-7xl text-[#3EB655]"><HiBadgeCheck /></h3>
+            <h1 className="text-3xl font-bold py-6">Payment Successfully</h1>
+            <hr />
+            <p className="pt-4">Thanks for purchasing</p>
+            <p className="py-4 font-bold">
+              Your total price: ${ modalTotalPrice}
             </p>
-            <div className="modal-action">
-              <button className="btn" onClick={closeModal}>Close</button>
+            <div className="modal-action justify-center ">
+              <button className="btn w-[200px]" onClick={closeModal}>Close</button>
             </div>
           </div>
         </dialog>
