@@ -41,9 +41,10 @@ const routes = createBrowserRouter([
             loader: async () => {
               const response = await fetch("/data.json");
               if (!response.ok) {
-                throw new Error("Failed to fetch products");
+                const errorMessage = await response.text();
+                throw new Error(`Failed to fetch products: ${errorMessage}`);
               }
-              return response.json();
+              return response.json(); 
             },
           },
         ],
