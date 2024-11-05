@@ -1,8 +1,8 @@
-import { toast, ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { toast, ToastContainer } from "react-toastify";
 import { useParams } from "react-router-dom";
 import { useLoaderData } from "react-router-dom";
 import { HiHeart } from "react-icons/hi";
+import 'react-toastify/dist/ReactToastify.css';
 
 const CART_KEY = "cart";
 const FAVORITES_KEY = "favorites";
@@ -23,20 +23,25 @@ const ProductDetails = () => {
 
   const addToCart = () => {
     const existingCart = JSON.parse(localStorage.getItem(CART_KEY)) || [];
-    const productExists = existingCart.find(item => item.product_id === product.product_id);
-    
+    const productExists = existingCart.find(
+      (item) => item.product_id === product.product_id
+    );
+
     if (!productExists) {
       existingCart.push(product);
       localStorage.setItem(CART_KEY, JSON.stringify(existingCart));
-      notify ("Product added to cart!");
+      notify("Product added to cart!");
     } else {
       notify("Product is already in the cart!");
     }
   };
 
   const addHeart = () => {
-    const existingFavorites = JSON.parse(localStorage.getItem(FAVORITES_KEY)) || [];
-    const productExists = existingFavorites.find(item => item.product_id === product.product_id);
+    const existingFavorites =
+      JSON.parse(localStorage.getItem(FAVORITES_KEY)) || [];
+    const productExists = existingFavorites.find(
+      (item) => item.product_id === product.product_id
+    );
 
     if (!productExists) {
       existingFavorites.push(product);
@@ -49,7 +54,20 @@ const ProductDetails = () => {
 
   return (
     <div className="mx-auto p-4 relative">
-      <ToastContainer /> {/* Ensure the ToastContainer is included */}
+      <div className="text-center justify-center flex">
+        <ToastContainer
+          position="top-center"
+          autoClose={1000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="light"
+        />
+      </div>
       <div className="hero bg-[#9538E2] pb-48 pt-14">
         <div className="hero-content text-center w-full">
           <div className="max-w-md">
@@ -80,16 +98,23 @@ const ProductDetails = () => {
                 ))}
               </ul>
               <p className="mt-2">
-                <strong>Availability:</strong> {product.availability ? "In Stock" : "Out of Stock"}
+                <strong>Availability:</strong>{" "}
+                {product.availability ? "In Stock" : "Out of Stock"}
               </p>
               <p className="mt-2">
                 <strong>Rating:</strong> {product.rating} ⭐
               </p>
               <div className="flex gap-3 items-center py-5">
-                <button onClick={addToCart} className="btn btn-primary" aria-label="Add to cart">
+                <button
+                  onClick={addToCart}
+                  className="btn btn-primary"
+                  aria-label="Add to cart">
                   Add to Cart
                 </button>
-                <button onClick={addHeart} className="btn btn-secondary" aria-label="Add to favorites">
+                <button
+                  onClick={addHeart}
+                  className="btn btn-secondary"
+                  aria-label="Add to favorites">
                   <HiHeart />
                 </button>
               </div>

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { CgArrowsExchangeAltV } from "react-icons/cg";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import HomeCover from "./HomeCover";
+
 
 const DashbordBanner = ({
   toggleSection,
@@ -36,7 +36,7 @@ const DashbordBanner = ({
       clearCart();
       setIsModalOpen(true);
     } else {
-      toast("Your cart is empty!");
+      toast.error("Please select the product you want to purchase");
     }
   };
 
@@ -46,8 +46,19 @@ const DashbordBanner = ({
 
   return (
     <div className="mx-2">
-      <ToastContainer />
-      <div className="hero min-h-screen bg-[#9538E2]">
+      <ToastContainer
+          position="top-center"
+          autoClose={1000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="light"
+        />
+      <div className="hero bg-[#9538E2]">
         <div className="hero-content text-center">
           <div className="max-w-md">
             <h1 className="text-5xl font-bold">Dashboard</h1>
