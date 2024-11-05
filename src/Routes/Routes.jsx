@@ -27,9 +27,10 @@ const routes = createBrowserRouter([
             path: "/",
             element: <ProductCategory />,
             loader: async () => {
-              const response = await fetch("/public/data.json");
+              const response = await fetch("/data.json");
               if (!response.ok) {
-                throw new Error("Failed to fetch products");
+                const errorMessage = await response.text();
+                throw new Error(`Failed to fetch products: ${errorMessage}`);
               }
               return response.json(); 
             },
@@ -38,7 +39,7 @@ const routes = createBrowserRouter([
             path: "/category/:category",
             element: <ProductCategory />,
             loader: async () => {
-              const response = await fetch("/public/data.json");
+              const response = await fetch("/data.json");
               if (!response.ok) {
                 throw new Error("Failed to fetch products");
               }
