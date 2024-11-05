@@ -88,14 +88,20 @@ const Dashboard = () => {
                   <div
                     key={item.product_id}
                     className="flex justify-between items-center bg-gray-100 p-4 rounded-lg mb-2 shadow">
+                    <div className="flex gap-8 items-center">
+                      <div>
+                        <img className="w-32 h-32" src={item.product_image} alt="" />
+                      </div>
                     <div>
-                      <h2 className="text-2xl font-bold">
+                    <h2 className="text-2xl font-bold">
                         {item.product_title}
                       </h2>
+                      <p className="my-2">{item.description}</p>
                       <p className="font-bold mt-4">
                         Price: ${item.price.toFixed(2)}
                       </p>
-                      <p className="font-semibold mt-4">Quantity: 1</p>
+                    </div>
+                     
                     </div>
                     <button onClick={() => removeFromCart(item.product_id)}>
                       <HiOutlineX className="text-3xl text-red-600" />
@@ -127,19 +133,22 @@ const Dashboard = () => {
                         <h2 className="text-2xl font-bold">
                           {item.product_title}
                         </h2>
-                        <h1 className="my-3">{item.description}</h1>
+                        <h1 className="my-3 flex gap-1 items-center"><span className="font-bold">description:</span><p>{item.description}</p></h1>
                         <p className="font-bold">
                           Price: ${item.price.toFixed(2)}
                         </p>
-                      </div>
-                    </div>
-                    <div className="flex gap-4">
-                      <button
+                       <div className="my-3">
+                       <button
                         onClick={() => addToCart(item)}
                         className="btn btn-primary">
                         Add to Cart
                       </button>
-                      <button
+                       </div>
+                      </div>
+                    </div>
+                    <div className="flex gap-4">
+                     
+                      <button className="btn"
                         onClick={() => removeFromFavorites(item.product_id)}>
                         <HiOutlineX className="text-3xl text-red-600" />
                       </button>
